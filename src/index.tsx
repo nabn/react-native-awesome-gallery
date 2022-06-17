@@ -862,7 +862,7 @@ export type GalleryRef = {
 
 export type GalleryReactRef = React.Ref<GalleryRef>;
 
-type GalleryProps<T> = EventsCallbacks & {
+export type GalleryProps<T> = EventsCallbacks & {
   ref?: GalleryReactRef;
   data: T[];
 
